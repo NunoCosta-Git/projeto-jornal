@@ -14,7 +14,7 @@
             font-family: Arial, sans-serif;
             padding: 20px;
         }
-        a { color: #80d4ff; } /* Cor dos links para lerem bem em fundos escuros */
+        a { color: #000000d7; } /* Cor dos links para lerem bem em fundos escuros */
     </style>
 </head>
 <body>
@@ -27,7 +27,7 @@
                 <a href="{% url 'detalhe_artigo' artigo.id %}">{{ artigo.titulo }}</a>
             </li>
         {% empty %}
-            <p>Ainda não há artigos publicados.</p>
+            <p>Ainda não há artigos publicados. Volte mais logo</p>
         {% endfor %}
     </ul>
 </body>
